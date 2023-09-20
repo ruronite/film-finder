@@ -1,4 +1,5 @@
-const tmdbKey = API_KEY;
+//const tmdbKey = API_KEY;
+const tmdbKey = '813cb95023f0f666defac1e100273a1a';
 
 //console.log(tmdbKey);
 
