@@ -1,5 +1,6 @@
 const tmdbKey = process.env.API_KEY;
 
+console.log(tmdbKey);
 
 const tmdbBaseUrl = 'https://api.themoviedb.org/3';
 const playBtn = document.getElementById('playBtn');
