@@ -141,8 +141,12 @@ select {
 
 
 @media only screen and (max-width: 600px){
+    body {
+        font-size: 24px; 
+    }
     #movieInfo {
-        width: 90%;
+        width: 100%;
+        flex-direction: column;
     }
 
     #movieText {
