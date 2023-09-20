@@ -41,7 +41,7 @@ section p {
     width:  65%;
     margin:  32px auto;
     flex-wrap: wrap;
-    border: 4px solid #249e57; 
+    /*border: 4px solid #249e57; */
     justify-content: center;
 }
 
