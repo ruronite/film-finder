@@ -1,0 +1,157 @@
+body {
+    background-color: #7f0920;
+    color: #0a0408;
+}
+
+#appTitle {
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 80px;
+}
+
+section {
+    color: white;
+    width: 80%;
+    margin: 0px auto;
+}
+
+section h2 {
+    text-align: center;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family: 'Questrial';
+    
+}
+
+#genreForm, #playBtn {
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    font-family: 'Fredoka One', sans-serif;
+}
+
+#movieInfo {
+    display: flex;
+    /*flex-direction: column;*/
+    width:  65%;
+    margin:  32px auto;
+    flex-wrap: wrap;
+    border: 4px solid #249e57; 
+    justify-content: center;
+}
+
+#moviePoster {
+    width:  300px;
+}
+
+#movieText {
+    width: 300px;
+
+}
+
+/*
+#movieInfo:after {
+    content:  "";
+    display:  table;
+    clear:  both;
+}
+
+#moviePoster, #movieText {
+    width:  50%;
+    float:  left;
+}
+
+img#moviePoster {
+    width:  100%;
+    height:  auto;
+    display:  block;
+    margin:  auto;
+}*/
+
+#movieText {
+    font-family: 'Questrial';
+    color: #FEFBEA;
+    line-height: 1.25;
+}
+
+#movieTitle, #movieOverview {
+    padding:  32px;
+}
+
+
+
+#playBtn {
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 7px 10px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #B97828;
+    color: #fdc238;
+    cursor:  pointer;
+}
+
+label {
+    display: block;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 200px;
+    height: auto;
+}
+
+#likeOrDislikeBtns {
+    text-align: center;
+    margin: 0px auto;  
+}
+
+#likeBtn, #dislikeBtn {
+    padding: 15px 25px;
+    font-size: 25px;
+    border-radius: 12px;
+    border-style: none;
+    cursor:  pointer;
+}
+
+#likeBtn {
+    background-color: #249e57;
+    color: darkgreen;
+}
+
+#dislikeBtn {
+    background-color: #c74a4a;
+    color: #910000;
+}
+
+.reaction {
+    position: relative;
+    transition: all 450ms ease-in;
+}
+
+.reaction:hover {
+    top: -5px;
+}
+
+
+@media only screen and (max-width: 600px){
+    #movieInfo {
+        width: 90%;
+    }
+
+    #movieText {
+        width: 95%;
+        min-width: 300px;
+    }
+
+    #movieOverview {
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+}
